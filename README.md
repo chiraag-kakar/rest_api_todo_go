@@ -1,4 +1,4 @@
-# Go Todo REST API Example
+# Go Todo REST API
 A RESTful API for simple todo application with [Go]() using **gorilla/mux** (A nice mux library) and **gorm** (An ORM for Go)
 
 ## Installation & Run
