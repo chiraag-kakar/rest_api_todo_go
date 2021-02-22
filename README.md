@@ -1,15 +1,15 @@
 # Go Todo REST API Example
 A RESTful API example for simple todo application with Go
 
-It is a just simple tutorial or example for making simple RESTful API with Go using **gorilla/mux** (A nice mux library) and **gorm** (An ORM for Go)
+A simple RESTful API with Go using **gorilla/mux** (A nice mux library) and **gorm** (An ORM for Go)
 
 ## Installation & Run
 ```bash
 # Download this project
-go get github.com/mingrammer/go-todo-rest-api-example
+go get github.com/chiraag-kakar/rest_api_todo_go
 ```
 
-Before running API server, you should set the database config with yours or set the your database config with my values on [config.go](https://github.com/mingrammer/go-todo-rest-api-example/blob/master/config/config.go)
+Before running API server, you should set the database config with yours or set the your database config with my values on [config.go](https://github.com/chiraag-kakar/rest_api_todo_go/blob/master/config/config.go)
 ```go
 func GetConfig() *Config {
 	return &Config{
@@ -26,9 +26,9 @@ func GetConfig() *Config {
 
 ```bash
 # Build and Run
-cd go-todo-rest-api-example
+cd rest_api_todo_go
 go build
-./go-todo-rest-api-example
+./go-rest_api_todo_go
 
 # API Endpoint : http://127.0.0.1:3000
 ```
